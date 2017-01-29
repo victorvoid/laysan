@@ -1,6 +1,6 @@
 .container {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 10%;
 }
 
 .container h2 {
@@ -11,5 +11,6 @@
 .container a {
   font-size: 1.4rem;
   padding: 10px 20px;
-  border: 1px solid #8CD0D3;
+  border: 1px solid #2377bf;
+  text-decoration: none;
 }
