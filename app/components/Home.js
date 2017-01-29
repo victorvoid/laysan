@@ -10,7 +10,7 @@ export default class Home extends Component {
       <div>
         <div className={styles.container}>
           <h2>Laysan</h2>
-          <Link to= "/counter">to create a pdf</Link>
+          <Link to= "/editorpdf">To create a pdf</Link>
         </div>
       </div>
     );

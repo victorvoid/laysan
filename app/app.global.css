@@ -1,20 +1,26 @@
 @import "~font-awesome/css/font-awesome.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,600,600i,700,800');
+@import "~medium-editor/dist/css/medium-editor.css";
+@import "~medium-editor/dist/css/themes/beagle.css";
 
 body {
   position: relative;
-  color: white;
+  color: black;
   height: 100vh;
-  background-color: #78909C;
-  font-family: Arial, Helvetica, Helvetica Neue, serif;
+  background-color: #FFF;
+  font-family: 'Raleway', sans-serif;
   overflow-y: hidden;
+  font-size: 22px;
 }
-
+div:focus{
+  border: none;
+  outline: none;
+}
 h2 {
   margin: 0;
   font-size: 2.25rem;
   font-weight: bold;
   letter-spacing: -.025em;
-  color: #fff;
 }
 
 p {
@@ -26,9 +32,9 @@ li {
 }
 
 a {
-  color: white;
   opacity: .75;
   text-decoration: none;
+  color: #61b392;
 }
 
 a:hover {
