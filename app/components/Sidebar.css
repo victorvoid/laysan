@@ -1,0 +1,39 @@
+.sidebar{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  overflow-y: auto;
+  min-height: 100%;
+  background-color: #333;
+}
+
+.backButton {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.backButton a{
+  color: rgba(142, 142, 142, 0.68);
+  font-size: 0.6em;
+}
+
+.btnExport{
+  border-radius: 10px;
+  display: block;
+  margin-top: 60px;
+  border: none;
+  position: fixed;
+  bottom: 30px;
+  transition: all .3s;
+  cursor: pointer;
+}
+.btnExport i{
+  font-size: 6em;
+}
+.btnExport span{
+  font-size: 2.5em;
+  position: absolute;
+  margin-left: 10px;
+}
