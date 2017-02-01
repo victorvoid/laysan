@@ -14,7 +14,7 @@ class Editorpdf extends Component {
 
   render(){
     return (
-      <div className={styles.container}>
+      <div className={styles.container} id="editor">
         <Editor
           text={this.state.text}
           onChange={this.handleChange}
