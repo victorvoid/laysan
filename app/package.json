@@ -1,13 +1,12 @@
 {
-  "name": "electron-react-boilerplate",
-  "productName": "electron-react-boilerplate",
-  "version": "1.0.0",
-  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "name": "laysan",
+  "version": "0.0.1",
+  "description": "An awesome reader/creator of PDF.",
   "main": "./main.js",
   "author": {
-    "name": "C. T. Lin",
-    "email": "chentsulin@gmail.com",
-    "url": "https://github.com/chentsulin"
+    "name": "Victor Igor",
+    "email": "victor.0w3@hotmail.com",
+    "url": "https://github.com/victorvoid"
   },
   "license": "MIT",
   "dependencies": {
